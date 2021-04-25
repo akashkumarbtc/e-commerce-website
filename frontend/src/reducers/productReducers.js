@@ -33,7 +33,6 @@ export const productListReducer = (state = initialState, action) => {
 };
 
 const initialProductState = {
-  reviews: [],
   product: [],
   error: "",
   loading: true,
